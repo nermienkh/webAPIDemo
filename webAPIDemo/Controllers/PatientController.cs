@@ -14,7 +14,7 @@ namespace webAPIDemo.Controllers
         List<PatientModel> patients = new List<PatientModel>() { new PatientModel() { ID = 5, Name = "Amr" } };
 
         /// <summary>
-        /// This method returns Hello world
+        /// This method returns All Patients
         /// </summary>
         /// <returns></returns>
         [HttpGet]
